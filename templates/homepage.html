@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block navtitle %}Login Form Using Flask,MongoDB and Bootstrap{% endblock %}
+{% block body %}
+<style>
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ct{
+        display: inline-block;
+        margin: 50px;
+    }
+</style>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+<button type="button"  class="btn btn-primary btn-lg ct"> <a href="/signin" style="text-decoration: none;color: black;">Sign In</a> </button>
+<button type="button"  class="btn btn-secondary btn-lg ct"><a href="/signup" style="text-decoration: none;color: black;">Sign Up</a></button>
+</div>
+{% endblock %}
